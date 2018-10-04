@@ -1,0 +1,15 @@
+.header {
+  width:100%;
+  @media (max-width: $breakPointTablet) {
+    height: 75px;
+  }
+  @media (min-width: $breakPointTablet) and (max-width: $breakPointDesktop) {
+    height: 100px;
+  }
+  @media (min-width: $breakPointDesktop) {
+    height: 110px;
+  }
+  &.lightMidtone {
+    background-color: map-get($colors, 'light-midtone');
+  }
+}

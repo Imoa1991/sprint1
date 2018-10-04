@@ -1,0 +1,9 @@
+.box{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #87CEFA;
+  border: 2px solid green;
+}
+/*es mejor hacerlo sin tocar los estilos de boostrap, es mejor hacer div dentro para cambiar los estilos en box1* para el próximo ejercicio./

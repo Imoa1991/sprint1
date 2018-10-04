@@ -1,0 +1,7 @@
+.section50 {
+  height: 50%;
+  background-color: map-get($colors, 'secondary');
+  .centered {
+    text-align: center;
+  }
+}

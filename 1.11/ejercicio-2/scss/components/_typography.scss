@@ -1,0 +1,9 @@
+body {
+  .marta {
+    text-align: center;
+    font-size: map-get($sizes, 'h1');
+    color: map-get($colors, 'primary');
+    font-family: map-get($style, 'family');
+    background-color: map-get($colors, 'secondary');
+  }
+}

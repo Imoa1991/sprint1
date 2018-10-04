@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACE,WAAO;EACL,UAAU,EAAE,MAAM;EAClB,SAAS,ECIT,IAAI;EDHJ,KAAK,ECHA,OAAO;EDIZ,WAAW,ECWP,aAAa;EDVjB,gBAAgB,ECHT,OAAO",
+"sources": ["../scss/components/_typography.scss","../scss/core/_variables.scss"],
+"names": [],
+"file": "main.css"
+}

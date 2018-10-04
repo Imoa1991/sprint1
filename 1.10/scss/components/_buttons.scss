@@ -1,0 +1,12 @@
+.button {
+  &.radius5px {
+  border: 1px solid map-get($colors, 'dark-midtone');
+  border-radius: 5px;
+   }
+  &.height45px {
+  height: 45px;
+  }
+  &.error {
+  background-color: map-get($colors, 'error');
+  }
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Formularios</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Create an account</h1>
+  <h3>Itś feel and always will be</h3>
+  <form action="/signup" method="post">
+    <div class=boxName>
+      <div class="box">
+        <label class="nombre" for="nombrecito">Nombre</label>
+        <input placeholder="Jon" id="nombrecito" type="text" name="firstname" required>
+      </div>
+      <div class="box">
+        <label class="nombre" for="apellidito">Apellido</label>
+        <input placeholder="Nieve" id="apellidito" type="text" name="lastname" required>
+      </div>
+    </div>
+    <div class="box">
+      <label class="emailTlfn" for="email">Email o teléfono</label>
+      <input type="text" name="mail">
+    </div>
+    <div class="box">
+      <label class="emailTlfn" for="email">Repite tu email o teléfono</label>
+      <input placeholder="juan@gmail.com o 686..."  type="text" name="telephone">
+    </div>
+    <div class="box">
+      <label class="password" for="password">Escribe una contraseña</label>
+      <input type="password" name="password">
+    </div>
+    <h3>Brithday</h3>
+    <div class="brithday">
+      <div>
+        <label for="day">Day</label>
+        <select id="day" name="day">
+          <option>Day</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+          <option>13</option>
+          <option>14</option>
+          <option>15</option>
+          <option>16</option>
+        </select>
+      </div>
+      <div>
+        <label for="month">Month</label>
+        <select id="month" name="month">
+          <option>Month</option>
+          <option>Enero</option>
+          <option>Febrero</option>
+          <option>Marzo</option>
+          <option>Abril</option>
+          <option>Mayo</option>
+          <option>Junio</option>
+          <option>Julio</option>
+          <option>Agosto</option>
+          <option>Septiembre</option>
+          <option>Octubre</option>
+          <option>Noviembre</option>
+          <option>Diciembre</option>
+        </select>
+      </div>
+      <div>
+        <label for="year">Year</label>
+        <select id="year" name="year">
+          <option>2000</option>
+          <option>2001</option>
+          <option>2002</option>
+          <option>2003</option>
+          <option>2004</option>
+          <option>2005</option>
+          <option>2006</option>
+          <option>2007</option>
+          <option>2008</option>
+          <option>2009</option>
+          <option>2010</option>
+          <option>2011</option>
+          <option>2012</option>
+        </select>
+      </div>
+    </div>
+    <div class=" box height">
+      <label class="height" for="height">Altura (cm)</label>
+      <input type="number" name="height" min="50" max="250" value="150">
+    </div>
+    <div class="box sexo">
+      <label for="mujer"><input id="mujer" type="radio" value="sexo" name="sexo" />Mujer</label>
+      <label for= "hombre"><input id="hombre" type="radio" value="sexo" name="sexo">Hombre</label>
+    </div>
+    <div class="box comment">
+      <label class="comments" for="comments">Comentarios</label>
+      <textarea placeholder="Escribe un comentario." name="comments" rows="8" cols="80"></textarea>
+    </div>
+    <div class="box">
+      <input type="reset" value="Restaurar valores por defecto">
+    </div>
+    <div class="box">
+      <input type="submit" value="Enviar info">
+    </div>
+    <div class="box">
+      <input type="hidden" name="navegador" value="Chrome">
+    </div>
+    <div class="box">
+      <label for="Acept">Aceptar los terminos de uso</label>
+      <input id="Acept" type="checkbox" value="yesOrNot" name="Acept" />
+    </div>
+  </form>
+</body>
+</html>

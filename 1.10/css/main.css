@@ -1,0 +1,42 @@
+.section50 {
+  height: 50%;
+  background-color: #5596e6;
+}
+.section50 .centered {
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .header {
+    height: 75px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1280px) {
+  .header {
+    height: 100px;
+  }
+}
+@media (min-width: 1280px) {
+  .header {
+    height: 110px;
+  }
+}
+.header.lightMidtone {
+  background-color: #dfe3e6;
+}
+
+.button.radius5px {
+  border: 1px solid #5a6872;
+  border-radius: 5px;
+}
+.button.height45px {
+  height: 45px;
+}
+.button.error {
+  background-color: #e71d32;
+}
+
+/*# sourceMappingURL=main.css.map */

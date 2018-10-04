@@ -1,0 +1,21 @@
+body{
+  margin: 20px;
+}
+.box{
+  margin: 20px 0px;
+}
+.boxName{
+  display: flex;
+}
+.nombre{
+  display:flex;
+  flex-direction: row;
+}
+.brithday{
+  display:flex;
+  flex-direction: row;
+}
+.comment{
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,29 @@
+.row {
+  background-color: #87CEFA;
+  text-align: center;
+  border: 2px solid red;
+}
+.box{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.header,
+.footer {
+  height: 20vh;
+}
+.menu,
+.content {
+  height: 60vh;
+}
+.header {
+  background-color: pink;
+  border: 2px solid blue;
+}
+.footer {
+  background-color: red;
+  }
+.content {
+  background-color: green;
+  }

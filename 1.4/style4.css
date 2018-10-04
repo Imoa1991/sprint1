@@ -1,0 +1,13 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap
+}
+.flex-item {
+  flex-basis: 50%;
+}
+
+.flex-item:last-child {
+  background-color: red;
+  order: -1;
+  flex: 0 0 100%;
+}
